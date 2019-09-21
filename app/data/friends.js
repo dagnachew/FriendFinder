@@ -5,11 +5,22 @@
 // ===============================================================================
 
 var friendArray = [
-    {
-      name: "Ahmed",
-      photo: "https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-      scores: [4, 2, 3, 1, 5, 5, 2, 4, 5, 3]
-    }
+  {
+    "name":"Ahmed",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  }
   ];
   
   // Note how we export the array. This makes it accessible to other files using require.
