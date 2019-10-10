@@ -57,7 +57,7 @@ module.exports = function(app) {
           
     });
 
-  }
+  
 
 
   app.post("/api/friends", function(req, res) {
@@ -98,3 +98,5 @@ module.exports = function(app) {
     res.json(friends[bbf]);
 
   });
+
+}
